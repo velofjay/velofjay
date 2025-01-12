@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jayavamsi Villuri</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Jayavamsi Villuri</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2025 21:40:15 +0530</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&gt; connect</title>
+      <link>//localhost:1313/contact/</link>
+      <pubDate>Sun, 12 Jan 2025 21:40:15 +0530</pubDate>
+      <guid>//localhost:1313/contact/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Hello fr13nd, this is &lt;strong&gt;Jayavamsi Villuri (JV)&lt;/strong&gt; aka &lt;strong&gt;VELOFJAY&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://x.com/velofjay&#34;&gt;Twitter/X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://linkedin.com/in/jayavamsi9&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/velofjay&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;mailto:jayavamsi.v@gmail.com&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>&gt; whoami</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Sun, 12 Jan 2025 21:28:19 +0530</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;blockquote&gt;
+&lt;h3 id=&#34;jayavamsi-villuri&#34;&gt;&lt;strong&gt;Jayavamsi Villuri&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;CEH Master | Software, Security &amp;amp; Blockchain Engineer&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;Jayavamsi Villuri&lt;/strong&gt;, a passionate engineer with a strong focus on &lt;strong&gt;cybersecurity&lt;/strong&gt;, &lt;strong&gt;data engineering&lt;/strong&gt;, and &lt;strong&gt;blockchain development&lt;/strong&gt;. I love building things for the web, securing them, and breaking them to make them stronger.&lt;/p&gt;
+&lt;p&gt;Over the past few years, I have been exploring the intersections of &lt;strong&gt;technology and security&lt;/strong&gt;, and my mission is to contribute to a safer, decentralized, and data-driven world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Try Hack Me</title>
+      <link>//localhost:1313/writeups/thm/</link>
+      <pubDate>Sun, 12 Jan 2025 19:41:22 +0530</pubDate>
+      <guid>//localhost:1313/writeups/thm/</guid>
+      <description>this is description</description>
+    </item>
+    <item>
+      <title>Second post</title>
+      <link>//localhost:1313/posts/second/</link>
+      <pubDate>Sun, 12 Jan 2025 15:29:24 +0530</pubDate>
+      <guid>//localhost:1313/posts/second/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>//localhost:1313/posts/first/</link>
+      <pubDate>Sat, 11 Jan 2025 01:37:56 +0530</pubDate>
+      <guid>//localhost:1313/posts/first/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-heading-one&#34;&gt;this is a heading one&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-a-heading-two&#34;&gt;this is a heading two&lt;/h2&gt;
+&lt;p&gt;this is a para&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

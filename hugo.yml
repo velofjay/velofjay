@@ -1,0 +1,145 @@
+baseURL: ""
+languageCode: en-us
+title: Jayavamsi Villuri
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  homeInfoParams:
+    Title: '\> hello, fr13nd'
+    Content: hello, fr13nd! I build things for the web and I break them as well 👀
+  socialIcons:
+    - name: github
+      url: "https://github.com/velofjay"
+    - name: x
+      url: "https://x.com/velofjay"
+    - name: linkedin
+      url: "https://linkedin.com/in/jayavamsi9"
+    - name: youtube
+      url: "https://www.youtube.com/@jayavamsivilluri7919"
+
+  assets:
+    favicon: favicon/favicon.ico
+    favicon16x16: favicon/favicon-16x16.png
+    favicon32x32: favicon/favicon-32x32.png
+    apple_touch_icon: favicon/apple-touch-icon.png
+
+    # disableHLJS: true
+  # cover:
+  #   linkFullImages: true
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter", "whatsapp"] # To customize which share buttons to be enabled on page
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "velofjay"
+    icon: img/vel.png
+    iconHeight: 35
+  
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Jayavamsi Villuri
+    subtitle: I build things for the web and I break them as well 👀
+    imageUrl: img/jv.JPEG
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: writeups
+        url: writeups
+      - name: projects
+        url: projects
+  
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.6
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+
+menu:
+  main:
+    - identifier: about
+      name: /about
+      url: /about
+      weight: 10
+    - identifier: writeups
+      name: /writeups
+      url: /writeups
+      weight: 20
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: projects
+      name: /projects
+      url: /projects
+      weight: 30
+    - identifier: blog
+      name: /blog
+      url: /blog
+      weight: 40
+    - identifier: contact
+      name: /contact
+      url: /contact
+      weight: 50
+    - identifier: tags
+      name: /tags
+      url: /tags
+      weight: 60
+    - identifier: search
+      name: /search
+      url: /search
+      weight: 70
+    # - identifier: archives
+    #   name: Archives
+    #   url: /archives/
+    #   weight: 40
