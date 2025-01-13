@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Writeups on Jayavamsi Villuri</title>
-    <link>//localhost:1313/writeups/</link>
+    <link>http://localhost:1313/writeups/</link>
     <description>Recent content in Writeups on Jayavamsi Villuri</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2025 19:41:22 +0530</lastBuildDate>
-    <atom:link href="//localhost:1313/writeups/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Try Hack Me</title>
-      <link>//localhost:1313/writeups/thm/</link>
-      <pubDate>Sun, 12 Jan 2025 19:41:22 +0530</pubDate>
-      <guid>//localhost:1313/writeups/thm/</guid>
-      <description>this is description</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/writeups/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
