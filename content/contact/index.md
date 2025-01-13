@@ -1,7 +1,7 @@
 ---
 date: '2025-01-12T21:40:15+05:30'
 draft: false
-title: '> connect'
+title: 'Contact Me'
 slug: contact
 ---
 

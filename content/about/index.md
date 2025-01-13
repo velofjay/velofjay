@@ -1,7 +1,7 @@
 ---
 date: '2025-01-12T21:28:19+05:30'
 draft: false
-title: '> whoami'
+title: 'About Me'
 slug: about
 ---
 
