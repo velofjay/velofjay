@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main # Update this to match your deployment branch
+
+publish_mode: editorial_workflow # Enables drafts and editorial review process
+
+media_folder: "static/img/uploads" # Folder to store media in your repo
+public_folder: "/img/uploads"      # Public path for uploaded images
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "tags", label: "Tags", widget: "list" }
+      - { name: "categories", label: "Categories", widget: "list" }
+      - { name: "summary", label: "Summary", widget: "text", required: false }
+      - { name: "featured_image", label: "Featured Image", widget: "image" }
+      - { name: "body", label: "Body", widget: "markdown" }
+
+  - name: "writeups"
+    label: "Writeups"
+    folder: "content/writeups"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "tags", label: "Tags", widget: "list" }
+      - { name: "body", label: "Body", widget: "markdown" }
+
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "github_link", label: "GitHub Link", widget: "string", required: false }
+      - { name: "demo_link", label: "Demo Link", widget: "string", required: false }
+      - { name: "featured_image", label: "Featured Image", widget: "image" }
+      - { name: "body", label: "Body", widget: "markdown" }
