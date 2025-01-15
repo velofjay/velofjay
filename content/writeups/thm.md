@@ -1,6 +1,6 @@
 ---
 date: '2025-01-12T19:41:22+05:30'
-draft: true
+draft: false
 title: 'Try Hack Me'
 slug: thm
 category: writeups
