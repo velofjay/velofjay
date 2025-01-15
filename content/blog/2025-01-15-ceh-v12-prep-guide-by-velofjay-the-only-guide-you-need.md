@@ -8,6 +8,7 @@ tags:
   - eccouncil
 summary: This blog helps you to ACE the CEH ANSI
 featured_image: /img/uploads/ceh.jpeg
+slug: slug
 ---
 This section would be updated with lots of questions and answers which will help you to ACE CEH ANSI exam.
 
