@@ -6,10 +6,17 @@
     <description>Recent content on Jayavamsi Villuri</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2025 21:40:15 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 21:59:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>&gt; connect</title>
+      <title>CEH V12 Prep Guide by VelOfJay - The Only Guide You Need</title>
+      <link>http://localhost:1313/blog/slug/</link>
+      <pubDate>Wed, 15 Jan 2025 21:59:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/slug/</guid>
+      <description>This blog helps you to ACE the CEH ANSI</description>
+    </item>
+    <item>
+      <title>Contact Me</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Sun, 12 Jan 2025 21:40:15 +0530</pubDate>
       <guid>http://localhost:1313/contact/</guid>
@@ -24,7 +31,7 @@
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>&gt; whoami</title>
+      <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 12 Jan 2025 21:28:19 +0530</pubDate>
       <guid>http://localhost:1313/about/</guid>
@@ -34,6 +41,20 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Hi, I&amp;rsquo;m &lt;strong&gt;Jayavamsi Villuri&lt;/strong&gt;, a passionate engineer with a strong focus on &lt;strong&gt;cybersecurity&lt;/strong&gt;, &lt;strong&gt;data engineering&lt;/strong&gt;, and &lt;strong&gt;blockchain development&lt;/strong&gt;. I love building things for the web, securing them, and breaking them to make them stronger.&lt;/p&gt;
 &lt;p&gt;Over the past few years, I have been exploring the intersections of &lt;strong&gt;technology and security&lt;/strong&gt;, and my mission is to contribute to a safer, decentralized, and data-driven world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Try Hack Me</title>
+      <link>http://localhost:1313/writeups/thm/</link>
+      <pubDate>Sun, 12 Jan 2025 19:41:22 +0530</pubDate>
+      <guid>http://localhost:1313/writeups/thm/</guid>
+      <description>this is description</description>
+    </item>
+    <item>
+      <title>Network Enumeration</title>
+      <link>http://localhost:1313/writeups/network-enumeration.thm/</link>
+      <pubDate>Sat, 14 Sep 2024 22:24:25 +0530</pubDate>
+      <guid>http://localhost:1313/writeups/network-enumeration.thm/</guid>
+      <description>This is all about various network services, their enumeration and their exploitation.</description>
     </item>
   </channel>
 </rss>
